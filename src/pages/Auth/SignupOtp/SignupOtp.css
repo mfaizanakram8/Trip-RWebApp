@@ -1,12 +1,12 @@
 .signup-otp-continue-text {
-    font-size: 34px;
+    font-size: 7vw;
     color: #7346D2;
     text-align: center;
     padding-top: 2vh;
 }
 
 .signup-otp-verification-text {
-    font-size: 20px;
+    font-size: 4vw;
     text-align: center;
     padding-top: 2vh;
     color: #6F6F6F;
@@ -29,7 +29,7 @@
 }
 
 .signup-otp-didnt-text {
-    font-size: 20px;
+    font-size: 4vw;
     color: #6F6F6F;
     text-align: center;
     padding-top: 3vh;
@@ -38,22 +38,105 @@
 .signup-otp-resend-text {
     font-weight: bold;
     cursor: pointer;
-    padding-left: .8vw;
+    padding-left: 3vw;
 }
 
 .signup-otp-request-text {
-    font-size: 18px;
+    font-size: 3.5vw;
     color: #8D8D8D;
     text-align: center;
     padding-top: 2vh;
 }
 
 .signup-otp-resend-sms-text {
-    font-size: 18px;
+    font-size: 3.5vw;
     color: #7346D2;
     text-align: center;
     font-weight: 700;
     text-decoration-line: underline;
     padding-top: 2vh;
     cursor: pointer;
+}
+
+/* Media Queries */
+
+/* Large screens */
+@media (min-width: 1024px) {
+    .signup-otp-continue-text {
+        font-size: 34px;
+    }
+
+    .signup-otp-verification-text {
+        font-size: 20px;
+    }
+
+    .signup-otp-didnt-text {
+        font-size: 20px;
+    }
+
+    .signup-otp-request-text {
+        font-size: 18px;
+    }
+
+    .signup-otp-resend-sms-text {
+        font-size: 18px;
+    }
+
+    .signup-otp-resend-text {
+        padding-left: .8vw;
+    }
+}
+
+/* Tablets */
+@media (min-width: 768px) and (max-width: 1023px) {
+    .signup-otp-continue-text {
+        font-size: 28px;
+    }
+
+    .signup-otp-verification-text {
+        font-size: 18px;
+    }
+
+    .signup-otp-didnt-text {
+        font-size: 18px;
+    }
+
+    .signup-otp-request-text {
+        font-size: 16px;
+    }
+
+    .signup-otp-resend-sms-text {
+        font-size: 16px;
+    }
+
+    .signup-otp-resend-text {
+        padding-left: 1.5vw;
+    }
+}
+
+/* Mobile */
+@media (max-width: 767px) {
+    .signup-otp-continue-text {
+        font-size: 24px;
+    }
+
+    .signup-otp-verification-text {
+        font-size: 16px;
+    }
+
+    .signup-otp-didnt-text {
+        font-size: 16px;
+    }
+
+    .signup-otp-request-text {
+        font-size: 14px;
+    }
+
+    .signup-otp-resend-sms-text {
+        font-size: 14px;
+    }
+
+    .signup-otp-resend-text {
+        padding-left: 1vw;
+    }
 }

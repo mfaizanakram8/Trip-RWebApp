@@ -48,4 +48,133 @@
     width: 79vh;
     object-fit: contain;
     margin-right: 6vw;
+}             
+/* Default styling remains the same */
+
+/* Media Queries */
+
+/* Large screens (desktops, width 1024px and above) */
+@media (min-width: 1024px) {
+    .welcome-container {
+        flex-direction: row;
+    }
+
+    .welcome-title-text {
+        font-size: 38px;
+        padding-left: 8vw;
+        padding-top: 12vh;
+    }
+
+    .welcome-find-deals-text {
+        font-size: 28px;
+        padding-left: 8vw;
+    }
+
+    .welcome-subtitle-text {
+        font-size: 22px;
+        padding-left: 8vw;
+    }
+
+    .welcome-button {
+        
+        height: 6.5vh;
+        margin-left: 8vw;
+    }
+
+    .welcome-image {
+        height: 79vh;
+        width: 79vh;
+        margin-right: 6vw;
+    }
+}
+
+/* Tablets (width between 768px and 1023px) */
+@media (min-width: 768px) and (max-width: 1023px) {
+    .welcome-title-text {
+        font-size: 32px;
+        padding-left: 5vw;
+        padding-top: 8vh;
+    }
+
+    .welcome-find-deals-text {
+        font-size: 24px;
+        padding-left: 5vw;
+    }
+
+    .welcome-subtitle-text {
+        font-size: 20px;
+        padding-left: 5vw;
+    }
+
+    .welcome-button {
+        width: 20vmin;
+        height: 6.5vh;
+        margin-left: 5vw;
+    }
+
+    .welcome-image {
+        height: 60vh;
+        width: 60vh;
+        margin-right: 4vw;
+    }
+}
+
+/* Mobile screens (width below 768px) */
+@media (max-width: 767px) {
+    .welcome-container {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh; /* Full screen height */
+       
+        position: relative;
+    }
+
+   
+ 
+    .welcome-title-text,
+    .welcome-find-deals-text,
+    .welcome-subtitle-text {
+        width: 80vw; /* Same width for all text */
+        margin: 0;
+        padding: 1vh 0;
+        text-align: center;
+    }
+    .welcome-title-text {
+        font-size: 24px;
+        font-weight: bold;
+        padding-top: 5vh;
+    }
+
+    .welcome-find-deals-text {
+        font-size: 18px;
+    }
+
+    .welcome-subtitle-text {
+        font-size: 16px;
+    }
+
+    .welcome-button {
+        width: 62vw;
+        height: 6vh;
+        margin-top: 3vh;
+        background-color: #7346D2;
+        color: white;
+        font-weight: bold;
+        margin-right: 35px;
+        border-radius: 50px; /* Rounded button */
+    }
+
+    .welcome-rightside {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 5vh;
+    }
+
+    .welcome-image {
+        height: 40vh;
+        width: 80vw;
+        object-fit: contain;
+    }
 }

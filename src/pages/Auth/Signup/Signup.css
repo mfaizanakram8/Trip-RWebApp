@@ -1,12 +1,12 @@
 .getstarted-text {
-    font-size: 40px;
+    font-size: 6vw;
     color: #7346D2;
     font-weight: bold;
     text-align: center;
 }
 
 .getstarted-subtitle {
-    font-size: 22px;
+    font-size: 4vw;
     color: #6F6F6F;
     text-align: center;
     padding-top: 1vh;
@@ -19,12 +19,13 @@
 }
 
 .email-input {
-    height: 9vh;
-    width: 25vw;
+    height: 6vh;
+    width: 80vw;
+    max-width: 400px;
     border: 1px solid #6E6E6E;
     border-radius: 100px;
     text-align: center;
-    font-size: 16px;
+    font-size: 3.5vw;
     outline: 1px solid #7346D2;
 }
 
@@ -56,16 +57,16 @@
     justify-content: center;
     align-items: center;
     padding-top: 3vh;
-    gap: 32px;
+    gap: 8vw;
 }
 
 .line-style {
     border: 1.5px solid #D9D9D9;
-    width: 10vw;
+    width: 20vw;
 }
 
 .or-text {
-    font-size: 16px;
+    font-size: 4vw;
     color: #C5C5C5;
     font-weight: 300;
 }
@@ -75,7 +76,7 @@
     justify-content: center;
     align-items: center;
     padding-top: 3vh;
-    gap: 20px;
+    gap: 5vw;
 }
 
 .google-apple-img {
@@ -88,16 +89,15 @@
     justify-content: center;
     align-items: center;
     padding-top: 3vh;
-    gap: 10px;
+    gap: 5vw;
 }
 
 .checkbox {
-    height: 30px;
-    width: 30px;
+    height: 7vw;
+    width: 7vw;
     cursor: pointer;
     appearance: none; 
     background-color: #D9D9D9;
-     
     border-radius: 4px; 
     position: relative; 
 }
@@ -113,7 +113,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 20px;
+    font-size: 4vw;
     color: white; 
     display: none; 
 }
@@ -123,7 +123,7 @@
 }
 
 .by-register-text {
-    font-size: 18px;
+    font-size: 4vw;
     color: #6E6E6E;
 }
 
@@ -133,7 +133,7 @@
 }
 
 .already-text {
-    font-size: 16px;
+    font-size: 4vw;
     color: #6F6F6F;
     text-align: center;
     padding-top: 2.5vh;
@@ -142,5 +142,145 @@
 .signin-text {
     font-weight: bold;
     cursor: pointer;
-    padding-left: .8vw;
+    padding-left: 3vw;
+}
+
+/* Media Queries */
+
+/* Large screens */
+@media (min-width: 1024px) {
+    .getstarted-text {
+        font-size: 40px;
+    }
+
+    .getstarted-subtitle {
+        font-size: 22px;
+    }
+
+    .email-input {
+        height: 9vh;
+        width: 25vw;
+        font-size: 16px;
+    }
+
+    .or-line-container {
+        gap: 32px;
+    }
+
+    .or-text {
+        font-size: 16px;
+    }
+
+    .checkbox {
+        height: 30px;
+        width: 30px;
+    }
+
+    .checkbox::before {
+        font-size: 20px;
+    }
+
+    .by-register-text {
+        font-size: 18px;
+    }
+
+    .already-text {
+        font-size: 16px;
+    }
+
+    .signin-text {
+        padding-left: .8vw;
+    }
+}
+
+/* Tablets */
+@media (min-width: 768px) and (max-width: 1023px) {
+    .getstarted-text {
+        font-size: 32px;
+    }
+
+    .getstarted-subtitle {
+        font-size: 20px;
+    }
+
+    .email-input {
+        height: 8vh;
+        width: 40vw;
+        font-size: 18px;
+    }
+
+    .or-line-container {
+        gap: 24px;
+    }
+
+    .or-text {
+        font-size: 14px;
+    }
+
+    .checkbox {
+        height: 25px;
+        width: 25px;
+    }
+
+    .checkbox::before {
+        font-size: 18px;
+    }
+
+    .by-register-text {
+        font-size: 16px;
+    }
+
+    .already-text {
+        font-size: 14px;
+    }
+
+    .signin-text {
+        padding-left: .6vw;
+    }
+}
+
+/* Mobile */
+@media (max-width: 767px) {
+    .getstarted-text {
+        font-size: 24px;
+    }
+
+    .getstarted-subtitle {
+        font-size: 16px;
+    }
+
+    .email-input {
+        height: 7vh;
+        width: 80vw;
+        font-size: 14px;
+    }
+
+    .or-line-container {
+        gap: 12px;
+    }
+
+    .or-text {
+        font-size: 12px;
+    }
+
+    .checkbox {
+        height: 20px;
+        width: 20px;
+    }
+
+    .checkbox::before {
+        font-size: 16px;
+    }
+
+    .by-register-text {
+        font-size: 14px;
+    }
+
+    .already-text {
+        font-size: 12px;
+    }
+
+    .signin-text {
+        padding-left: 5px;
+    }
 }
