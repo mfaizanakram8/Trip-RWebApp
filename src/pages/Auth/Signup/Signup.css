@@ -31,6 +31,19 @@
     color: #C5C5C5;
 }
 
+.get-emailerror-text {
+    color: red;
+    text-align: center;
+}
+
+.email-input.focused {
+    border-color: #7346D2;
+}
+
+.email-input.error {
+    border-color: red;
+}
+
 .button-container {
     display: flex;
     justify-content: center;
@@ -75,14 +88,12 @@
     align-items: center;
     padding-top: 3vh;
     gap: 10px;
-    
 }
 
 .checkbox {
     height: 30px;
     width: 30px;
     cursor: pointer;
-   
 }
 
 .by-register-text {
@@ -107,7 +118,6 @@
     cursor: pointer;
     padding-left: .8vw;
 }
-
 /* Media Queries */
 
 /* Large screens */
