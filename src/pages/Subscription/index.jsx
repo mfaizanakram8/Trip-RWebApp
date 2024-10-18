@@ -80,8 +80,8 @@ function SubscriptionPage() {
             <img
               src="/assets/Free.png"
               alt="crown"
-              className="hello"
-              width={60}
+              className="hello1"
+              width={70}
               height={60}
               style={{
                 backgroundColor: selectedPlan === "free" ? "#EFE8FE" : "#fff",
@@ -132,7 +132,7 @@ function SubscriptionPage() {
               src="/assets/Premium.png"
               alt="crown"
               className="hello"
-              width={60}
+              width={80}
               height={60}
               style={{
                 backgroundColor:
@@ -187,9 +187,9 @@ function SubscriptionPage() {
             <img
               src="/assets/Elite.png"
               alt="crown"
-              className="hello"
-              width={60}
-              height={60}
+              className="hello2"
+              width={70}
+              height={40}
               style={{
                 backgroundColor: selectedPlan === "elite" ? "#EFE8FE" : "#fff",
               }}

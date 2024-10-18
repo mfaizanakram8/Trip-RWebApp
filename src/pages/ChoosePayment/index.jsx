@@ -10,7 +10,7 @@ const ChoosePayment = () => {
     const paymentMethods = [
         { id: 1, name: 'Credit / Debit card', icon: '/assets/creditdebitcard.png' },
         { id: 2, name: 'Paypal', icon: '/assets/PayPal.png' },
-        { id: 3, name: 'Google Pay', icon: '/assets/GooglePay.png' },
+        { id: 3, name: 'Google Pay', icon: '/assets/GooglePay.png',  },
         { id: 4, name: 'Amazon Pay', icon: '/assets/AmazonPay.png' },
     ];
 

@@ -89,11 +89,13 @@
 
 .checkout-apply-promo-input {
     border: none;
+    outline: none;
 }
 
 .checkout-apply-promo-input::placeholder {
     color: #C5C5C5;
     font-weight: lighter;
+   
 }
 
 .checkout-apply-text {
