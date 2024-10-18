@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import LogoBack from "../../Components/LogoBack";
 import { useNavigate } from "react-router-dom";
 import "./subscription.css";
-import Button from '../../Components/Button';
+import Button from "../../Components/Button";
 
 function SubscriptionPage() {
   const navigate = useNavigate();
@@ -22,7 +22,7 @@ function SubscriptionPage() {
   };
 
   const handleContinue = () => {
-    navigate('/addpayment');
+    navigate("/addpayment");
   };
 
   return (
@@ -52,7 +52,18 @@ function SubscriptionPage() {
                 Monthly
               </span>
               <span className={billingPeriod === "yearly" ? "active" : ""}>
-                Yearly (-20%)
+                Yearly{" "}
+                <span
+                  style={{
+                    color: "gold",
+                    backgroundColor:
+                      billingPeriod === "yearly" ? "#7346D2" : "transparent",
+                    padding: "0 4px",
+                    borderRadius: "4px",
+                  }}
+                >
+                  -20%
+                </span>
               </span>
             </div>
           </div>
@@ -226,19 +237,27 @@ function SubscriptionPage() {
             <h2>Elite</h2>
           </div>
           <div className="table-row">
-            <p className="lorem">Lorem Ipsum</p>
+            <p className="loc" style={{ color: "#7346D2" }}>
+              Lorem Ipsum
+            </p>
             <div className="tick">&#10003;</div>
             <div className="tick">&#10003;</div>
             <div className="tick">&#10003;</div>
           </div>
+          
           <div className="table-row">
-            <p className="lorem">Lorem Ipsum</p>
+            <p className="loc" style={{ color: "#7346D2" }}>
+              Lorem Ipsum
+            </p>
             <div className="empty"></div>
             <div className="tick">&#10003;</div>
             <div className="tick">&#10003;</div>
           </div>
+
           <div className="table-row">
-            <p className="lorem">Lorem Ipsum</p>
+            <p className="loc" style={{ color: "#7346D2" }}>
+              Lorem Ipsum
+            </p>
             <div className="empty"></div>
             <div className="empty"></div>
             <div className="tick">&#10003;</div>

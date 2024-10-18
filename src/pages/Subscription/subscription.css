@@ -52,9 +52,9 @@
 }
 
 .title-text2 {
-  font-size: 20px;
+  font-size: 25px;
   color: #7346D2;
-  font-weight: 700;
+  font-weight: bold;
   margin-top: 7px;
   margin-bottom: 7px;
   align-items: center;
@@ -74,6 +74,8 @@
   justify-content: center;
   margin-top: 7px;
   margin-bottom: 7px;
+  color: #6F6F6F;
+  font-weight: lighter;
 
 }
 
@@ -94,7 +96,7 @@
   border: 1px solid #ccc;
   border-radius: 25px;
   cursor: pointer;
-  padding: 3px;
+  padding: 5px;
   width: 208px;
   height: 30px;
   position: relative;
@@ -126,7 +128,8 @@
   z-index: 2;
   background-color: #EFE8FE;
   transition: color 0.3s ease;
-  color: #333;
+  color: #6d28d9;
+  font-weight: bold;
 }
 
 .billing-toggle.active .billing-switch {
@@ -162,7 +165,9 @@
 
 .table-row {
   display: contents;
-  border-top: 1px solid #e5e7eb;
+  
+  border-top: 2px solid #e5e7eb;
+ 
 }
 
 .table-row p {
@@ -192,10 +197,10 @@
   height: 30px;
 }
 
-.lorem {
-  color: #7346D2;
+.loc {
+  
   font-weight: bold;
-
+color: #7346D2;
 }
 
 .continue-button1 {
@@ -203,4 +208,17 @@
   width: 12vw;
   height: 6.5vh;
   margin-top: 30px;
+} 
+
+#abc{
+  color: gold;
+  display: inline;
+  background-color: #EFE8FE;
+
+}
+.separator-line {
+  width: 100%;
+  height: 2px; 
+  background-color: #7346D2;  
+  margin: 5px 0;  
 }
