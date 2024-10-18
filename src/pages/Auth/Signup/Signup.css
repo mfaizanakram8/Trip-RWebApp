@@ -1,12 +1,12 @@
 .getstarted-text {
-    font-size: 6vw;
+    font-size: 40px;
     color: #7346D2;
     font-weight: bold;
     text-align: center;
 }
 
 .getstarted-subtitle {
-    font-size: 4vw;
+    font-size: 22px;
     color: #6F6F6F;
     text-align: center;
     padding-top: 1vh;
@@ -19,31 +19,16 @@
 }
 
 .email-input {
-    height: 6vh;
-    width: 80vw;
-    max-width: 400px;
-    border: 1px solid #6E6E6E;
+    height: 9vh;
+    width: 25vw;
+    border: 1px solid #6F6F6F;
     border-radius: 100px;
     text-align: center;
-    font-size: 3.5vw;
-    outline: 1px solid #7346D2;
+    font-size: 16px;
 }
 
 .email-input::placeholder {
     color: #C5C5C5;
-}
-
-.get-emailerror-text {
-    color: red;
-    text-align: center;
-}
-
-.email-input.focused {
-    border: #6E6E6E;
-}
-
-.email-input.error {
-    border-color: red;
 }
 
 .button-container {
@@ -57,16 +42,16 @@
     justify-content: center;
     align-items: center;
     padding-top: 3vh;
-    gap: 8vw;
+    gap: 32px;
 }
 
 .line-style {
     border: 1.5px solid #D9D9D9;
-    width: 20vw;
+    width: 10vw;
 }
 
 .or-text {
-    font-size: 4vw;
+    font-size: 16px;
     color: #C5C5C5;
     font-weight: 300;
 }
@@ -76,7 +61,7 @@
     justify-content: center;
     align-items: center;
     padding-top: 3vh;
-    gap: 5vw;
+    gap: 20px;
 }
 
 .google-apple-img {
@@ -89,41 +74,19 @@
     justify-content: center;
     align-items: center;
     padding-top: 3vh;
-    gap: 5vw;
+    gap: 10px;
+    
 }
 
 .checkbox {
-    height: 7vw;
-    width: 7vw;
+    height: 30px;
+    width: 30px;
     cursor: pointer;
-    appearance: none; 
-    background-color: #D9D9D9;
-    border-radius: 4px; 
-    position: relative; 
-}
-
-.checkbox:checked {
-    background-color: #7346D2; 
-    border: 2px solid #6E6E6E; 
-}
-
-.checkbox::before {
-    content: '✔'; 
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 4vw;
-    color: white; 
-    display: none; 
-}
-
-.checkbox:checked::before {
-    display: block; 
+   
 }
 
 .by-register-text {
-    font-size: 4vw;
+    font-size: 18px;
     color: #6E6E6E;
 }
 
@@ -133,7 +96,7 @@
 }
 
 .already-text {
-    font-size: 4vw;
+    font-size: 16px;
     color: #6F6F6F;
     text-align: center;
     padding-top: 2.5vh;
@@ -142,7 +105,7 @@
 .signin-text {
     font-weight: bold;
     cursor: pointer;
-    padding-left: 3vw;
+    padding-left: .8vw;
 }
 
 /* Media Queries */
